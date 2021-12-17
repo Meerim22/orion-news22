@@ -1,0 +1,35 @@
+.orionNews{
+
+  &__title-line {
+    width: 72.03px;
+    height: 0px;
+    border: 3px solid #000000;
+    margin: 0 13px 0 0;         
+    transform: translate(0, -50%);
+  }
+
+  &__newCard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+  }
+
+  &__title{
+    display: flex;
+    justify-content: center;
+    padding:  4em;
+  }
+
+  &__title-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin: 0;        
+    transform: translate(0, -50%);
+  }
+}
